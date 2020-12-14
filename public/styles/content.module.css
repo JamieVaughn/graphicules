@@ -1,6 +1,5 @@
 .content {
   font-family: "Ubuntu", sans-serif;
-  color: #222;
   font-weight: 200;
 }
 
@@ -13,9 +12,12 @@
   margin: 1.5rem 0 0 0;
 }
 
-.content a {
-  color: blue;
+.content a, a {
+  color: #2ee1d6;
   text-decoration: underline;
+}
+.content a:visited {
+  color: #667779;
 }
 
 .content h1 {

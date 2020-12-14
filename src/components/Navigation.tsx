@@ -43,7 +43,6 @@ export default function Navigation() {
               padding: 0;
               position: fixed;
               top: 0;
-              background-color: #fff;
               display: flex;
               flex-direction: column;
               justify-content: center;
@@ -52,7 +51,7 @@ export default function Navigation() {
               transition: opacity 200ms;
             }
             .active ul {
-              opacity: 1;
+              opacity: 0.9;
               transform: translateY(0);
             }
             li {
@@ -64,10 +63,17 @@ export default function Navigation() {
               margin-bottom: 0;
             }
             .active {
-              color: #222;
+              color: #2ee1d6;
+            }
+            a:not(.active) {
+              color: #667779;
             }
 
             @media (min-width: 769px) {
+              .active ul {
+                background: transparent;
+                opacity: 1;
+              }
               .container {
                 width: 7rem;
                 display: block;
@@ -78,6 +84,7 @@ export default function Navigation() {
                 top: auto;
                 display: block;
                 transform: translateY(0);
+                background: transparent;
               }
               li {
                 font-size: 1rem;

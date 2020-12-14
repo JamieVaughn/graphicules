@@ -25,6 +25,7 @@ export default function Layout({ children }: Props) {
             padding: 4rem 0;
             box-sizing: border-box;
             height: 100%;
+            background: center / cover url('./images/hex-bg.jpg') no-repeat;
           }
           main {
             display: flex;

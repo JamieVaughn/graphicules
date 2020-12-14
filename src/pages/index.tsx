@@ -9,15 +9,15 @@ export default function Index() {
     <Layout>
       <BasicMeta url={"/"} />
       <OpenGraphMeta url={"/"} />
-      <TwitterCardMeta url={"/"} />
+      <TwitterCardMeta url={"https://twitter.com/graphicules"} />
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Graphicules<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+          <span className="handle">Curious Little Graphs</span>
+          <h2>Blends of graphs & stories for an illuminating visual chemistry.</h2>
+          <SocialList fill={'#ccc'}/>
         </div>
       </div>
       <style jsx>{`
@@ -27,6 +27,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          color: white;
         }
         h1 {
           font-size: 2.5rem;
