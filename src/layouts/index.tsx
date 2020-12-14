@@ -83,7 +83,7 @@ export default function Index({
           </article>
           <footer>
             <div className={"social-list"}>
-              <SocialList />
+              <SocialList fill={'#eee'}/>
             </div>
             <Copyright />
           </footer>
