@@ -55,7 +55,7 @@ export default function TagPostList({ posts, tag, pagination }: Props) {
           }
           h1 span {
             font-weight: bold;
-            color: white;
+            color: #222;
           }
           ul {
             margin: 0;
